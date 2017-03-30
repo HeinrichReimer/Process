@@ -37,14 +37,16 @@ curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"priority-
 
 # Create type labels
 curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"type-bug","color":"b60205"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
-curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"type-documentation","color":"2740a1"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
 curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"type-enhancement","color":"5b2a68"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"type-documentation","color":"2740a1"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"type-question","color":"1d76db"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
 
 # Create flag labels
-curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"flag-requirement","color":"006b75"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
-curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"flag-device-specific","color":"006b75"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
-curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"flag-duplicate","color":"006b75"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
-curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"flag-help-wanted","color":"006b75"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
-curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"flag-invalid","color":"006b75"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
 curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"flag-trash","color":"006b75"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"flag-invalid","color":"006b75"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"flag-duplicate","color":"006b75"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
 curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"flag-wontfix","color":"006b75"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"flag-requirement","color":"006b75"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"flag-help-wanted","color":"006b75"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"flag-breaking-change","color":"006b75"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"flag-device-specific","color":"006b75"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
