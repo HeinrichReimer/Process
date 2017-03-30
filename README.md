@@ -87,11 +87,11 @@ The following can be used for configuring the label names and colors:
 ![type-bug](img/labels/type-bug.png) | _type-bug_ | `#b60205` | Bug / Error
 ![type-enhancement](img/labels/type-enhancement.png) | _type-enhancement_ | `#5b2a68` | Enhancement / Feature request
 ![type-documentation](img/labels/type-documentation.png) | _type-documentation_ | `#2740a1` | Project documentation (`README.md`/Wiki/Javadoc/...)
-![type-question](img/labels/type-question.png) | _type-question_ | `#2740a1` | Questions about the project
+![type-question](img/labels/type-question.png) | _type-question_ | `#1d76db` | Questions about the project
 
 #### Flag labels
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Label | Color | Description
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Label | Color | Description
 ---|---|---|---
 ![flag-trash](img/labels/flag-trash.png) | _flag-trash_ | `#006b75` | An issue that is deleted but not _Done_ (since you cannot delete an issue in GitHub Issues)
 ![flag-invalid](img/labels/flag-invalid.png) | _flag-invalid_ | `#006b75` | Issue that has doesn't conform to the contribution guidelines (`ISSUE_TEMPLATE.md`) or spam
