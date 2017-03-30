@@ -54,7 +54,7 @@ The script requests a GitHub Personal Access Token which in order to access priv
 **To run the script:**  
 1. Download (or `git clone` the repo)
 1. Set execute permissions: `chmod +x ./set-github-labels.sh`
-1. Drag the file into Terminal
+1. Drag the file into Terminal or execute by typing `./set-github-labels.sh`
 
 ### Manually add the labels
 
