@@ -87,6 +87,7 @@ The following can be used for configuring the label names and colors:
 ![type-bug](img/labels/type-bug.png) | _type-bug_ | `#b60205` | Bug / Error
 ![type-enhancement](img/labels/type-enhancement.png) | _type-enhancement_ | `#5b2a68` | Enhancement / Feature request
 ![type-documentation](img/labels/type-documentation.png) | _type-documentation_ | `#2740a1` | Project documentation (`README.md`/Wiki/Javadoc/...)
+![type-question](img/labels/type-question.png) | _type-question_ | `#2740a1` | Questions about the project
 
 #### Flag labels
 
@@ -98,6 +99,7 @@ The following can be used for configuring the label names and colors:
 ![flag-wontfix](img/labels/flag-wontfix.png) | _flag-wontfix_ | `#006b75` | Issue that won't be implemented
 ![flag-requirement](img/labels/flag-requirement.png) | _flag-requirement_ | `#006b75` | Formal requirement
 ![flag-help-wanted](img/labels/flag-help-wanted.png) | _flag-help-wanted_ | `#006b75` | "Can someone help me?"
+![flag-breaking-change](img/labels/flag-breaking-change.png) | _flag-breaking-change_ | `#006b75` | Breaks the current API
 ![flag-device-specific](img/labels/flag-device-specific.png) | _flag-device-specific_ | `#006b75` | Issue that only occurs on some devices
 
 ## Scheduling the project
