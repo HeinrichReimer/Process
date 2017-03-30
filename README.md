@@ -1,4 +1,4 @@
-﻿# GitHub Task Management
+# GitHub Task Management
 
 This document defines the guidelines we follow for task management using GitHub Issues.  It is intentionally lean and covers primarily how individual releases are managed.
 
@@ -62,8 +62,7 @@ The following can be used for configuring the label names and colors:
 
 #### State labels
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-| Label | Color | Description
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Label | Color | Description
 ---|---|---|:-:
 ![state-analysis](img/labels/state-analysis.png) | _state-analysis_ | `#dd7404` | See state description above
 ![state-ready](img/labels/state-ready.png) | _state-ready_ | `#ec9f04` | "
@@ -75,8 +74,7 @@ The following can be used for configuring the label names and colors:
 
 #### Priority labels
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-| Label | Color | Description
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Label | Color | Description
 ---|---|---|---
 ![priority-high](img/labels/priority-high.png) | _priority-high_ | `#0aff2f` | High priority
 ![priority-med](img/labels/priority-med.png) | _priority-med_ | `#85ff97` | Normal priority
@@ -84,8 +82,7 @@ The following can be used for configuring the label names and colors:
 
 #### Type labels (optional)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-| Label | Color | Description
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Label | Color | Description
 ---|---|---|---
 ![type-bug](img/labels/type-bug.png) | _type-bug_ | `#b60205` | Bug / Error
 ![type-enhancement](img/labels/type-enhancement.png) | _type-enhancement_ | `#5b2a68` | Enhancement / Feature request
@@ -93,8 +90,7 @@ The following can be used for configuring the label names and colors:
 
 #### Flag labels
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-| Label | Color | Description
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Label | Color | Description
 ---|---|---|---
 ![flag-trash](img/labels/flag-trash.png) | _flag-trash_ | `#006b75` | An issue that is deleted but not _Done_ (since you cannot delete an issue in GitHub Issues)
 ![flag-invalid](img/labels/flag-invalid.png) | _flag-invalid_ | `#006b75` | Issue that has doesn't conform to the contribution guidelines (`ISSUE_TEMPLATE.md`) or spam
