@@ -16,7 +16,7 @@ assigned to a milestone. That rule applies regardless of any labels assigned to 
 Any issue with a ![flag-trash](img/labels/flag-trash.png) label is automatically excluded from the below states.
 
 State | Label&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | In a Milestone? | Issue State | Progress | Description
----|---|:-:|---|--:|---
+---|---|:-:|:-:|--:|---
 **Backlog** | n/a | ✗ | ![Open](img/issues/issue-open.png) | 0% | Issues have been identified but are not yet ready for development.
 **Analysis** | _state-analysis_ | ✓ | ![Open](img/issues/issue-open.png) | 10% | Issues are actively being analyzed, typically by a Business Analyst or Lead Developer, to ensure the work is Ready for development.
 **Ready** | _state-ready_ | ✓ | ![Open](img/issues/issue-open.png)  | 20% | Issues have been fleshed out to the point where they are believed to be ready to be acted upon by developers working on the associated milestone.
